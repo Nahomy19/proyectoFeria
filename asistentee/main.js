@@ -134,6 +134,11 @@ const comandos = {
         voz("mi nombre es Mochi");
     },
 
+    // Comando para "Dinámica"
+    "Juego": () => {
+        iniciarJuego();
+    },
+
     "mochi qué fecha es hoy": () => {
         var date = new Date;
         var mes = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
@@ -179,10 +184,10 @@ const comandos = {
         console.clear();
     },
 
-    
-    "Mochi busca *busqueda": busqueda => {
-        voz("ok, buscando " + busqueda +" para ti");
+    "busca *busqueda": busqueda => {
+        voz("ok, aquí tienes algunos resultados de " + busqueda +" para ti");
         window.open("https://www.google.com/search?q=" + busqueda)
+        
     },
 
     /*
@@ -272,6 +277,45 @@ const comandos = {
 
 }
 
+function iniciarJuego() {
+    const preguntas = [
+        {
+            pregunta: "¿Cuál es la capital de Francia?",
+            respuestaCorrecta: "París",
+        },
+        {
+            pregunta: "¿En qué año se fundó Google?",
+            respuestaCorrecta: "1998",
+        },
+        {
+            pregunta: "¿Cuántos continentes hay en el mundo?",
+            respuestaCorrecta: "7",
+        },
+        // Agrega más preguntas y respuestas correctas según desees
+    ];
+
+    const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
+
+    annyang.removeCommands();
+
+    const comandosJuego = {};
+    comandosJuego[preguntaAleatoria.respuestaCorrecta] = () => {
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz("¡Correcto! ¡Has acertado en el juego!");
+    };
+
+    comandosJuego["*respuesta"] = (respuesta) => {
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz(`Incorrecto. La respuesta correcta es: ${preguntaAleatoria.respuestaCorrecta}`);
+    };
+
+    annyang.addCommands(comandosJuego);
+
+    voz(preguntaAleatoria.pregunta);
+}
+
 function voz(texto) {
     document.getElementById("all2").style.visibility = "hidden";
     var textoAEscuchar = texto;
@@ -280,6 +324,9 @@ function voz(texto) {
     mensaje.volume = 1;
     mensaje.rate = 0.9;
     mensaje.pitch = 1;
+
+    mensaje.voice = speechSynthesis.getVoices().filter(function(voice){ return voice.name == "Google español de Estados Unidos"; })[0];
+
     // ¡Parla!
     document.getElementById("all").style.visibility = "visible";
     setTimeout(() => {

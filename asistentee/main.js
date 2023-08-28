@@ -48,6 +48,10 @@ const comandos = {
         voz("Buenos días, Espero que estés bien");
     },
 
+    "Buenos días Mochi": () => {
+        voz("Buenos días, Espero que estés bien")
+    },
+
     "Mochi Buenas tardes": () => {
         voz("Buenas tardes, bienvenido de nuevo");
     },

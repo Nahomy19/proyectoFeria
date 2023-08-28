@@ -179,19 +179,20 @@ const comandos = {
         console.clear();
     },
 
-    /*
+    
     "Mochi busca *busqueda": busqueda => {
         voz("ok, buscando " + busqueda +" para ti");
         window.open("https://www.google.com/search?q=" + busqueda)
-    },*/
+    },
 
+    /*
     "Mochi busca *busqueda": busqueda => {
         const mensaje = "OK, buscando " + busqueda + " para ti";
         responsiveVoice.speak(mensaje, "Spanish Female"); // Cambia "Spanish Female" al idioma/voz que prefieras
         const respuestaCompleta = "Aquí tienes algunos resultados";
         responsiveVoice.speak(respuestaCompleta, "Spanish Female");
         window.open("https://www.google.com/search?q=2djoZL2lJearwbkPhe6TyAo&oq= _lp=Egxnd3Mtd2l6LXNlcnAiEFF1w6kgZXMgc29mdHdhcmVIAFAAWABwAHgBkAEAmAEAoAEAqgEAuAESyAEA-AEG4gMEGAAgQQ&gs_ivs=1&sclient=gws-wiz-serp#tts=0" + busqueda);
-    },
+    },*/
     
     "Mochi reproduce *busqueda": busqueda => {
         voz("ok, reproduciendo " + busqueda + "para ti");

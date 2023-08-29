@@ -14,7 +14,7 @@ annyang.addCallback('soundstart', function () {
     if (!bandera){
         document.getElementById("all2").style.display="block"
         setTimeout(() => {
-            voz('Bienvenido de nuevo Usuario')
+            voz('Bienvenido de nuevo')
             bandera = true;
         }, 1000);
     }
@@ -24,7 +24,6 @@ annyang.addCallback('soundstart', function () {
 annyang.addCallback('result', function () {
     console.log('sound stopped');
 });
-
 
 const comandos = {
     // SALUDO
@@ -187,7 +186,7 @@ const comandos = {
     "busca *busqueda": busqueda => {
         voz("ok, aquí tienes algunos resultados de " + busqueda +" para ti");
         window.open("https://www.google.com/search?q=" + busqueda)
-        
+
     },
 
     /*
@@ -198,10 +197,17 @@ const comandos = {
         responsiveVoice.speak(respuestaCompleta, "Spanish Female");
         window.open("https://www.google.com/search?q=2djoZL2lJearwbkPhe6TyAo&oq= _lp=Egxnd3Mtd2l6LXNlcnAiEFF1w6kgZXMgc29mdHdhcmVIAFAAWABwAHgBkAEAmAEAoAEAqgEAuAESyAEA-AEG4gMEGAAgQQ&gs_ivs=1&sclient=gws-wiz-serp#tts=0" + busqueda);
     },*/
+
     
-    "Mochi reproduce *busqueda": busqueda => {
+    
+    /*"reproduce *busqueda": busqueda => {
         voz("ok, reproduciendo " + busqueda + "para ti");
-        window.open("https://www.youtube.com/watch?v=" + busqueda)
+        window.open("https://www.youtube.com" + busqueda)
+    },*/
+
+    'reproduce *busqueda': function(busqueda) {
+        voz("Ok, reproduciendo " + busqueda + " para ti.");
+        buscarYReproducir(busqueda);
     },
 
     "mochi di *frase": frase => {
@@ -315,6 +321,40 @@ function iniciarJuego() {
 
     voz(preguntaAleatoria.pregunta);
 }
+
+function buscarYReproducir(busqueda) {
+    var apiKey = 'TU_CLAVE_DE_API_DE_YOUTUBE';
+    var apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&q=${encodeURIComponent(busqueda)}&part=snippet&type=video`;
+  
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        var videoId = obtenerVideoId(data);
+        if (videoId) {
+          var playerDiv = document.createElement("div");
+          playerDiv.id = "youtube-player";
+          document.body.appendChild(playerDiv);
+  
+          player = new YT.Player("youtube-player", {
+            height: "360",
+            width: "640",
+            videoId: videoId,
+            events: {
+              onReady: reproducirVideo
+            }
+          });
+        }
+      });
+  }
+
+  function obtenerVideoId(data) {
+    var videoId = data.items[0].id.videoId;
+    return videoId ? videoId : null;
+  }
+  
+  function reproducirVideo(event) {
+    event.target.playVideo();
+  }
 
 function voz(texto) {
     document.getElementById("all2").style.visibility = "hidden";

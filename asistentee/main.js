@@ -1,18 +1,18 @@
 function start() {
     if (annyang) {
         annyang.setLanguage("es-ES")
-        annyang.start({ autoRestart: true, continuous: false }); 
+        annyang.start({ autoRestart: true, continuous: false });
         console.log("Listening...")
         annyang.addCommands(comandos);
         annyang.debug()
-        document.getElementById("btn").style.display = "none"   
-}
+        document.getElementById("btn").style.display = "none"
+    }
 }
 
 let bandera = false;
 annyang.addCallback('soundstart', function () {
-    if (!bandera){
-        document.getElementById("all2").style.display="block"
+    if (!bandera) {
+        document.getElementById("all2").style.display = "block"
         setTimeout(() => {
             voz('Bienvenido de nuevo')
             bandera = true;
@@ -141,19 +141,19 @@ const comandos = {
     "mochi qué fecha es hoy": () => {
         var date = new Date;
         var mes = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
-        voz("hoy es " + date.getDate() + " de "+ mes[date.getMonth()] + "del" + date.getFullYear());
+        voz("hoy es " + date.getDate() + " de " + mes[date.getMonth()] + "del" + date.getFullYear());
     },
 
     "mochi qué día es hoy": () => {
         var date = new Date;
         var dia = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
-        voz("hoy es "+ dia[date.getDay()-1]);
+        voz("hoy es " + dia[date.getDay() - 1]);
     },
 
     "mochi qué día es": () => {
         var date = new Date;
         var dia = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
-        voz("hoy es "+ dia[date.getDay()-1]);
+        voz("hoy es " + dia[date.getDay() - 1]);
     },
 
     // ORDENES
@@ -173,7 +173,7 @@ const comandos = {
         voz(chistes[ran])
     },
 
-    "Mochi reiniciate": () => {
+    "Reinicio": () => {
         voz("entendido");
         location.reload();
     },
@@ -183,11 +183,16 @@ const comandos = {
         console.clear();
     },
 
-    "busca *busqueda": busqueda => {
-        voz("ok, aquí tienes algunos resultados de " + busqueda +" para ti");
+    "Busca *busqueda": busqueda => {
+        voz("ok, aquí tienes algunos resultados de " + busqueda + " para ti");
         window.open("https://www.google.com/search?q=" + busqueda)
 
     },
+
+    /*
+    'busca *busqueda': function(busqueda) {
+        obtenerResultados(busqueda);
+    },*/
 
     /*
     "Mochi busca *busqueda": busqueda => {
@@ -198,14 +203,14 @@ const comandos = {
         window.open("https://www.google.com/search?q=2djoZL2lJearwbkPhe6TyAo&oq= _lp=Egxnd3Mtd2l6LXNlcnAiEFF1w6kgZXMgc29mdHdhcmVIAFAAWABwAHgBkAEAmAEAoAEAqgEAuAESyAEA-AEG4gMEGAAgQQ&gs_ivs=1&sclient=gws-wiz-serp#tts=0" + busqueda);
     },*/
 
-    
-    
-    /*"reproduce *busqueda": busqueda => {
-        voz("ok, reproduciendo " + busqueda + "para ti");
-        window.open("https://www.youtube.com" + busqueda)
-    },*/
 
-    'reproduce *busqueda': function(busqueda) {
+
+    "video *busqueda": busqueda => {
+        voz("ok, reproduciendo " + busqueda + "para ti");
+        window.open("https://www.youtube.com/results?search_query=" + busqueda)
+    },
+
+    'reproduce *busqueda': function (busqueda) {
         voz("Ok, reproduciendo " + busqueda + " para ti.");
         buscarYReproducir(busqueda);
     },
@@ -213,7 +218,7 @@ const comandos = {
     "mochi di *frase": frase => {
         voz(frase);
     },
-    "escribe *dicto": dicto =>{
+    "escribe *dicto": dicto => {
         document.getElementById("text").innerHTML = dicto;
     },
 
@@ -244,11 +249,11 @@ const comandos = {
     },
 
     "Mochi Te presento a *nombre": nombre => {
-        voz("Hola" + nombre +", mi nombre es Mochi, es un placer conocerte");
+        voz("Hola" + nombre + ", mi nombre es Mochi, es un placer conocerte");
     },
 
     // LLAMADA A LA ACCIÓN
-    
+
     "Hola Mochi": () => {
         voz("Hola mucho gusto");
     },
@@ -259,7 +264,7 @@ const comandos = {
 
     "Hey Mochi": () => {
         voz("aquí estoy");
-    },    
+    },
 
     "Hola": () => {
         voz("Hola mucho gusto");
@@ -321,39 +326,64 @@ function iniciarJuego() {
 
     voz(preguntaAleatoria.pregunta);
 }
-
+//Función para buscar y reproducir un video de youtube
 function buscarYReproducir(busqueda) {
     var apiKey = 'AIzaSyANIE1mEk2w8N5hdc_oqsgcCoD0R3lAtVQ';
     var apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&q=${encodeURIComponent(busqueda)}&part=snippet&type=video`;
-  
-    fetch(apiUrl)
-      .then(response => response.json())
-      .then(data => {
-        var videoId = obtenerVideoId(data);
-        if (videoId) {
-          var playerDiv = document.createElement("div");
-          playerDiv.id = "youtube-player";
-          document.body.appendChild(playerDiv);
-  
-          player = new YT.Player("youtube-player", {
-            height: "360",
-            width: "640",
-            videoId: videoId,
-            events: {
-              onReady: reproducirVideo
-            }
-          });
-        }
-      });
-  }
 
-  function obtenerVideoId(data) {
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            var videoId = obtenerVideoId(data);
+            if (videoId) {
+                var playerDiv = document.createElement("div");
+                playerDiv.id = "youtube-player";
+                document.body.appendChild(playerDiv);
+
+                player = new YT.Player("youtube-player", {
+                    height: "360",
+                    width: "640",
+                    videoId: videoId,
+                    events: {
+                        onReady: reproducirVideo
+                    }
+                });
+            }
+        });
+}
+
+//Función para obtener la dirección del video de youtube solicitado
+function obtenerVideoId(data) {
     var videoId = data.items[0].id.videoId;
     return videoId ? videoId : null;
-  }
-  
-  function reproducirVideo(event) {
+}
+
+//Función para reproducir el video de youtube
+function reproducirVideo(event) {
     event.target.playVideo();
+}
+
+//Función para obtener los resultados de búsqueda
+function obtenerResultados(busqueda) {
+    voz("Ok, aquí tienes algunos resultados de " + busqueda + " para ti.");
+  
+    var apiUrl = "https://api.duckduckgo.com/"; // URL de la API de DuckDuckGo
+  
+    // Realiza la solicitud a la API de DuckDuckGo
+    fetch(apiUrl + "?q=" + encodeURIComponent(busqueda) + "&format=json")
+      .then(response => response.json())
+      .then(data => {
+        // Procesa los resultados y construye una respuesta
+        var resultados = data.RelatedTopics;
+        var respuesta = "Aquí tienes algunos resultados: ";
+  
+        for (var i = 0; i < resultados.length; i++) {
+          respuesta += resultados[i].Text + ". ";
+        }
+  
+        // Reproduce la respuesta en voz
+        voz(respuesta);
+      });
   }
 
 function voz(texto) {
@@ -365,13 +395,13 @@ function voz(texto) {
     mensaje.rate = 0.9;
     mensaje.pitch = 1;
 
-    mensaje.voice = speechSynthesis.getVoices().filter(function(voice){ return voice.name == "Google español de Estados Unidos"; })[0];
+    mensaje.voice = speechSynthesis.getVoices().filter(function (voice) { return voice.name == "Google español de Estados Unidos"; })[0];
 
     // ¡Parla!
     document.getElementById("all").style.visibility = "visible";
     setTimeout(() => {
-        document.getElementById("all").style.visibility = "hidden";  
-        document.getElementById("all2").style.visibility = "visible";      
+        document.getElementById("all").style.visibility = "hidden";
+        document.getElementById("all2").style.visibility = "visible";
     }, 4000);
     speechSynthesis.speak(mensaje);
 }

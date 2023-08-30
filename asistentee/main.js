@@ -323,7 +323,7 @@ function iniciarJuego() {
 }
 
 function buscarYReproducir(busqueda) {
-    var apiKey = 'TU_CLAVE_DE_API_DE_YOUTUBE';
+    var apiKey = 'AIzaSyANIE1mEk2w8N5hdc_oqsgcCoD0R3lAtVQ';
     var apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&q=${encodeURIComponent(busqueda)}&part=snippet&type=video`;
   
     fetch(apiUrl)

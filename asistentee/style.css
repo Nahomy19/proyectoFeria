@@ -16,7 +16,7 @@
 
 #btn {
     padding: 10px ;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0abf);
     border: 0px solid;
     border-radius: 2px;
     color:white;
@@ -29,7 +29,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-2 {
@@ -38,7 +38,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.65s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-3 {
@@ -47,7 +47,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.4s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #c407c4);
 }
 
 .item-4 {
@@ -56,7 +56,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.8s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-5 {
@@ -65,7 +65,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.3s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-6 {
@@ -74,7 +74,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.1s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-7 {
@@ -83,7 +83,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.4s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-8 {
@@ -92,7 +92,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.85s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-9 {
@@ -101,7 +101,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-10 {
@@ -110,7 +110,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.3s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-11 {
@@ -119,7 +119,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.55s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-12 {
@@ -128,7 +128,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.1s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-13 {
@@ -137,7 +137,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.6s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-14 {
@@ -146,7 +146,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-15 {
@@ -155,7 +155,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.25s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-16 {
@@ -164,7 +164,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-17 {
@@ -173,7 +173,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.6s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-18 {
@@ -182,7 +182,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.9s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-19 {
@@ -191,7 +191,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.8s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-20 {
@@ -200,7 +200,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.75s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-21 {
@@ -209,7 +209,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.4s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-22 {
@@ -218,7 +218,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-23 {
@@ -227,7 +227,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.9s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-24 {
@@ -236,7 +236,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-25 {
@@ -245,7 +245,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.95s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-26 {
@@ -254,7 +254,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-27 {
@@ -263,7 +263,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.95s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-28 {
@@ -272,7 +272,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-29 {
@@ -281,7 +281,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.2s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-30 {
@@ -290,7 +290,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.55s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-31 {
@@ -299,7 +299,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.4s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-32 {
@@ -308,7 +308,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.25s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-33 {
@@ -317,7 +317,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-34 {
@@ -326,7 +326,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.9s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-35 {
@@ -335,7 +335,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.7s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-36 {
@@ -344,7 +344,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.95s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-37 {
@@ -353,7 +353,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.25s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-38 {
@@ -362,7 +362,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.7s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-39 {
@@ -371,7 +371,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.65s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-40 {
@@ -380,7 +380,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.55s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-41 {
@@ -389,7 +389,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-42 {
@@ -398,7 +398,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.1s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-43 {
@@ -407,7 +407,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.1s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-44 {
@@ -416,7 +416,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.3s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-45 {
@@ -425,7 +425,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.75s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-46 {
@@ -434,7 +434,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-47 {
@@ -443,7 +443,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-48 {
@@ -452,7 +452,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.3s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-49 {
@@ -461,7 +461,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.6s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-50 {
@@ -470,7 +470,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.05s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-51 {
@@ -479,7 +479,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.25s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-52 {
@@ -488,7 +488,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.85s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-53 {
@@ -497,7 +497,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-54 {
@@ -506,7 +506,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-55 {
@@ -515,7 +515,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.9s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-56 {
@@ -524,7 +524,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.25s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-57 {
@@ -533,7 +533,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-58 {
@@ -542,7 +542,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-59 {
@@ -551,7 +551,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.9s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-60 {
@@ -560,7 +560,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-61 {
@@ -569,7 +569,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-62 {
@@ -578,7 +578,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.7s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-63 {
@@ -587,7 +587,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.4s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-64 {
@@ -596,7 +596,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.55s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-65 {
@@ -605,7 +605,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-66 {
@@ -614,7 +614,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-67 {
@@ -623,7 +623,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.25s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-68 {
@@ -632,7 +632,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.95s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-69 {
@@ -641,7 +641,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.3s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-70 {
@@ -650,7 +650,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.85s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-71 {
@@ -659,7 +659,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.3s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-72 {
@@ -668,7 +668,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.75s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-73 {
@@ -677,7 +677,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-74 {
@@ -686,7 +686,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.7s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-75 {
@@ -695,7 +695,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.05s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-76 {
@@ -704,7 +704,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-77 {
@@ -713,7 +713,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.4s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-78 {
@@ -722,7 +722,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.35s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-79 {
@@ -731,7 +731,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-80 {
@@ -740,7 +740,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.15s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-81 {
@@ -749,7 +749,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.5s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-82 {
@@ -758,7 +758,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.1s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-83 {
@@ -767,7 +767,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-84 {
@@ -776,7 +776,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.5s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-85 {
@@ -785,7 +785,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.5s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-86 {
@@ -794,7 +794,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.5s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-87 {
@@ -803,7 +803,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-88 {
@@ -812,7 +812,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-89 {
@@ -821,7 +821,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.6s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-90 {
@@ -830,7 +830,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-91 {
@@ -839,7 +839,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.65s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-92 {
@@ -848,7 +848,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.6s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-93 {
@@ -857,7 +857,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.45s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-94 {
@@ -866,7 +866,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.5s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-95 {
@@ -875,7 +875,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.85s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-96 {
@@ -884,7 +884,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.75s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-97 {
@@ -893,7 +893,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.25s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-98 {
@@ -902,7 +902,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 0.5s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 .item-99 {
@@ -911,7 +911,7 @@
   width: 2px;
   animation: music 1s backwards infinite;
   animation-delay: 1.4s;
-  background: linear-gradient(#1f77bd, #1fe5bd);
+  background: linear-gradient(#ec0505, #fc0afc);
 }
 
 @keyframes music {
@@ -935,7 +935,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-02 {
@@ -944,7 +944,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.65s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-03 {
@@ -953,7 +953,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.4s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-04 {
@@ -962,7 +962,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.8s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-05 {
@@ -971,7 +971,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.3s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-06 {
@@ -980,7 +980,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.1s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-07 {
@@ -989,7 +989,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.4s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-08 {
@@ -998,7 +998,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.85s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-09 {
@@ -1007,7 +1007,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-010 {
@@ -1016,7 +1016,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.3s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-011 {
@@ -1025,7 +1025,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.55s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-012 {
@@ -1034,7 +1034,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.1s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-013 {
@@ -1043,7 +1043,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.6s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-014 {
@@ -1052,7 +1052,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-015 {
@@ -1061,7 +1061,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.25s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-016 {
@@ -1070,7 +1070,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-017 {
@@ -1079,7 +1079,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.6s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-018 {
@@ -1088,7 +1088,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.9s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-019 {
@@ -1097,7 +1097,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.8s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-020 {
@@ -1106,7 +1106,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.75s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-021 {
@@ -1115,7 +1115,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.4s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-022 {
@@ -1124,7 +1124,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-023 {
@@ -1133,7 +1133,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.9s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-024 {
@@ -1142,7 +1142,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-025 {
@@ -1151,7 +1151,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.95s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-026 {
@@ -1160,7 +1160,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-027 {
@@ -1169,7 +1169,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.95s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-028 {
@@ -1178,7 +1178,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-029 {
@@ -1187,7 +1187,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.2s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-030 {
@@ -1196,7 +1196,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.55s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-031 {
@@ -1205,7 +1205,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.4s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-032 {
@@ -1214,7 +1214,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.25s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-033 {
@@ -1223,7 +1223,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-034 {
@@ -1232,7 +1232,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.9s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-035 {
@@ -1241,7 +1241,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.7s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-036 {
@@ -1250,7 +1250,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.95s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-037 {
@@ -1259,7 +1259,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.25s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-038 {
@@ -1268,7 +1268,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.7s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-039 {
@@ -1277,7 +1277,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.65s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-040 {
@@ -1286,7 +1286,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.55s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-041 {
@@ -1295,7 +1295,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-042 {
@@ -1304,7 +1304,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.1s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-043 {
@@ -1313,7 +1313,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.1s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-044 {
@@ -1322,7 +1322,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.3s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-045 {
@@ -1331,7 +1331,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.75s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-046 {
@@ -1340,7 +1340,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-047 {
@@ -1349,7 +1349,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-048 {
@@ -1358,7 +1358,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.3s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-049 {
@@ -1367,7 +1367,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.6s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-050 {
@@ -1376,7 +1376,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.05s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-051 {
@@ -1385,7 +1385,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.25s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-052 {
@@ -1394,7 +1394,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.85s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-053 {
@@ -1403,7 +1403,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-054 {
@@ -1412,7 +1412,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-055 {
@@ -1421,7 +1421,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.9s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-056 {
@@ -1430,7 +1430,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.25s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-057 {
@@ -1439,7 +1439,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-058 {
@@ -1448,7 +1448,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-059 {
@@ -1457,7 +1457,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.9s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-060 {
@@ -1466,7 +1466,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-061 {
@@ -1475,7 +1475,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-062 {
@@ -1484,7 +1484,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.7s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-063 {
@@ -1493,7 +1493,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.4s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-064 {
@@ -1502,7 +1502,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.55s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-065 {
@@ -1511,7 +1511,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-066 {
@@ -1520,7 +1520,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-067 {
@@ -1529,7 +1529,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.25s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-068 {
@@ -1538,7 +1538,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.95s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-069 {
@@ -1547,7 +1547,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.3s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-070 {
@@ -1556,7 +1556,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.85s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-071 {
@@ -1565,7 +1565,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.3s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-072 {
@@ -1574,7 +1574,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.75s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-073 {
@@ -1583,7 +1583,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-074 {
@@ -1592,7 +1592,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.7s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-075 {
@@ -1601,7 +1601,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.05s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-076 {
@@ -1610,7 +1610,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-077 {
@@ -1619,7 +1619,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.4s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-078 {
@@ -1628,7 +1628,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.35s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-079 {
@@ -1637,7 +1637,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-080 {
@@ -1646,7 +1646,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.15s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-081 {
@@ -1655,7 +1655,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.5s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-082 {
@@ -1664,7 +1664,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.1s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-083 {
@@ -1673,7 +1673,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-084 {
@@ -1682,7 +1682,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.5s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-085 {
@@ -1691,7 +1691,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.5s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-086 {
@@ -1700,7 +1700,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.5s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-087 {
@@ -1709,7 +1709,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-088 {
@@ -1718,7 +1718,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-089 {
@@ -1727,7 +1727,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.6s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-090 {
@@ -1736,7 +1736,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-091 {
@@ -1745,7 +1745,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.65s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-092 {
@@ -1754,7 +1754,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.6s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-093 {
@@ -1763,7 +1763,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.45s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-094 {
@@ -1772,7 +1772,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.5s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-095 {
@@ -1781,7 +1781,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.85s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-096 {
@@ -1790,7 +1790,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.75s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-097 {
@@ -1799,7 +1799,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.25s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-098 {
@@ -1808,7 +1808,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 0.5s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   .item-099 {
@@ -1817,7 +1817,7 @@
     width: 2px;
     animation: musicc 1s backwards infinite;
     animation-delay: 1.4s;
-    background: linear-gradient(#1f77bd, #1fe5bd);
+    background: linear-gradient(#ec0505, #fc0afc);
   }
   
   @keyframes musicc {

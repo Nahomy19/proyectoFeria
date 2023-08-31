@@ -129,7 +129,7 @@ const comandos = {
         voz("mi nombre es Mochi");
     },
 
-    "como te llamas": () => {
+    "cómo te llamas": () => {
         voz("mi nombre es Mochi");
     },
 
@@ -183,7 +183,7 @@ const comandos = {
         console.clear();
     },
 
-    "busca *busqueda": busqueda => {
+    "mochi busca *busqueda": busqueda => {
         voz("ok, aquí tienes algunos resultados de " + busqueda +" para ti");
         window.open("https://www.google.com/search?q=" + busqueda)
 
@@ -205,9 +205,10 @@ const comandos = {
         window.open("https://www.youtube.com" + busqueda)
     },*/
 
-    'reproduce *busqueda': function(busqueda) {
+    'mochi reproduce *busqueda': function(busqueda) {
         voz("Ok, reproduciendo " + busqueda + " para ti.");
-        buscarYReproducir(busqueda);
+        window.open("https://www.youtube.com/" + busqueda)
+        //buscarYReproducir(busqueda);
     },
 
     "mochi di *frase": frase => {
@@ -240,6 +241,10 @@ const comandos = {
     },
 
     "Mochi Cómo estás": () => {
+        voz('mejor que ayer, espero que tú también lo estés')
+    },
+
+    "Cómo estás": () => {
         voz('mejor que ayer, espero que tú también lo estés')
     },
 
@@ -296,6 +301,18 @@ function iniciarJuego() {
         {
             pregunta: "¿Cuántos continentes hay en el mundo?",
             respuestaCorrecta: "7",
+        },
+        {
+            pregunta: "¿Qué colores tiene la bandera de El Salvador?",
+            respuestaCorrecta: "Azul y blanco",
+        },
+        {
+            pregunta: "¿Cúal es el océano más grande?",
+            respuestaCorrecta: "Océano pacífico",
+        },
+        {
+            pregunta: "¿Cúal es el país más grande del mundo?",
+            respuestaCorrecta: "Rusia",
         },
         // Agrega más preguntas y respuestas correctas según desees
     ];

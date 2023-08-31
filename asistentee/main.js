@@ -138,6 +138,10 @@ const comandos = {
         iniciarJuego();
     },
 
+    "Inicia el juego": () => {
+        iniciarJuego();
+    },
+
     "mochi qué fecha es hoy": () => {
         var date = new Date;
         var mes = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
@@ -173,7 +177,7 @@ const comandos = {
         voz(chistes[ran])
     },
 
-    "Mochi reiniciate": () => {
+    "Reinicia *reinicia": () => {
         voz("entendido");
         location.reload();
     },
@@ -205,10 +209,18 @@ const comandos = {
         window.open("https://www.youtube.com" + busqueda)
     },*/
 
+    /*
     'mochi reproduce *busqueda': function(busqueda) {
         voz("Ok, reproduciendo " + busqueda + " para ti.");
         window.open("https://www.youtube.com/" + busqueda)
         //buscarYReproducir(busqueda);
+    },*/
+
+    'reproduce *busqueda': function(busqueda) {
+        voz("Ok, reproduciendo " + busqueda + " para ti.");
+        const query = encodeURIComponent(busqueda);
+        const youtubeURL = `https://www.youtube.com/results?search_query=${query}`;
+        window.open(youtubeURL, '_blank');
     },
 
     "mochi di *frase": frase => {
@@ -314,21 +326,45 @@ function iniciarJuego() {
             pregunta: "¿Cúal es el país más grande del mundo?",
             respuestaCorrecta: "Rusia",
         },
+        {
+            pregunta: "¿Cúal es el río más grande del mundo?",
+            respuestaCorrecta: "Amazonas",
+        },
+        {
+            pregunta: "¿Qué rama de la biología estudia a los animales?",
+            respuestaCorrecta: "Zoología",
+        },
+        {
+            pregunta: "¿Qué cantidad de huesos tiene el cuerpo humano?",
+            respuestaCorrecta: "206",
+        },
+        {
+            pregunta: "¿Cuántos lados tiene un hexágono?",
+            respuestaCorrecta: "6 lados",
+        },
+        {
+            pregunta: "¿Cuál es la capital de Argentina?",
+            respuestaCorrecta: "Buenos Aires",
+        },
+
         // Agrega más preguntas y respuestas correctas según desees
     ];
 
     const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
+    const tiempoDeRespuesta = 20000; // Tiempo de respuesta en milisegundos (ejemplo: 20 segundos)
 
     annyang.removeCommands();
 
     const comandosJuego = {};
     comandosJuego[preguntaAleatoria.respuestaCorrecta] = () => {
+        clearTimeout(tiempoRespuesta);
         annyang.removeCommands();
         annyang.addCommands(comandos); // Restaurar comandos originales
         voz("¡Correcto! ¡Has acertado en el juego!");
     };
 
     comandosJuego["*respuesta"] = (respuesta) => {
+        clearTimeout(tiempoRespuesta);
         annyang.removeCommands();
         annyang.addCommands(comandos); // Restaurar comandos originales
         voz(`Incorrecto. La respuesta correcta es: ${preguntaAleatoria.respuestaCorrecta}`);
@@ -337,6 +373,12 @@ function iniciarJuego() {
     annyang.addCommands(comandosJuego);
 
     voz(preguntaAleatoria.pregunta);
+
+    const tiempoRespuesta = setTimeout(() => {
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz("¡Tiempo agotado! No has respondido a tiempo.");
+    }, tiempoDeRespuesta);
 }
 
 function buscarYReproducir(busqueda) {

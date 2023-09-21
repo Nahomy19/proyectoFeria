@@ -653,7 +653,7 @@ function iniciarJuego_es() {
         },
     ];
 
-    const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
+    /*const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
     const tiempoDeRespuesta = 20000; // Tiempo de respuesta en milisegundos (ejemplo: 20 segundos)
 
     annyang.removeCommands();
@@ -678,6 +678,39 @@ function iniciarJuego_es() {
     voz(preguntaAleatoria.pregunta);
 
     const tiempoRespuesta = setTimeout(() => {
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz("¡Tiempo agotado! No has respondido a tiempo.");
+    }, tiempoDeRespuesta);*/
+
+    const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
+    const tiempoDeRespuesta = 20000; // Tiempo de respuesta en milisegundos (ejemplo: 20 segundos)
+
+    annyang.removeCommands();
+
+    const comandosJuego = {};
+    comandosJuego[preguntaAleatoria.respuestaCorrecta] = () => {
+        clearTimeout(tiempoRespuesta);
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz("¡Correcto! ¡Has acertado en el juego!");
+    };
+
+    comandosJuego["*respuesta"] = (respuesta) => {
+        clearTimeout(tiempoRespuesta);
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz(`Incorrecto. La respuesta correcta es: ${preguntaAleatoria.respuestaCorrecta}`);
+    };
+
+    annyang.addCommands(comandosJuego);
+
+    // Declarar la variable tiempoRespuesta aquí
+    let tiempoRespuesta;
+
+    voz(preguntaAleatoria.pregunta);
+
+    tiempoRespuesta = setTimeout(() => {
         annyang.removeCommands();
         annyang.addCommands(comandos); // Restaurar comandos originales
         voz("¡Tiempo agotado! No has respondido a tiempo.");
@@ -791,7 +824,7 @@ function iniciarJuego_en() {
         // Add more questions and correct answers as desired
     ];
 
-    const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
+    /*const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
     const tiempoDeRespuesta = 20000; // Tiempo de respuesta en milisegundos (ejemplo: 20 segundos)
 
     annyang.removeCommands();
@@ -816,6 +849,39 @@ function iniciarJuego_en() {
     voz(preguntaAleatoria.pregunta);
 
     const tiempoRespuesta = setTimeout(() => {
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz("¡Time is up! Too slow!.");
+    }, tiempoDeRespuesta);*/
+
+    const preguntaAleatoria = preguntas[Math.floor(Math.random() * preguntas.length)];
+    const tiempoDeRespuesta = 20000; // Tiempo de respuesta en milisegundos (ejemplo: 20 segundos)
+
+    annyang.removeCommands();
+
+    const comandosJuego = {};
+    comandosJuego[preguntaAleatoria.respuestaCorrecta] = () => {
+        clearTimeout(tiempoRespuesta);
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz("¡Correct! ¡You win!");
+    };
+
+    comandosJuego["*respuesta"] = (respuesta) => {
+        clearTimeout(tiempoRespuesta);
+        annyang.removeCommands();
+        annyang.addCommands(comandos); // Restaurar comandos originales
+        voz(`Incorrect. The correct answer is: ${preguntaAleatoria.respuestaCorrecta}`);
+    };
+
+    annyang.addCommands(comandosJuego);
+
+    // Declarar la variable tiempoRespuesta aquí
+    let tiempoRespuesta;
+
+    voz(preguntaAleatoria.pregunta);
+
+    tiempoRespuesta = setTimeout(() => {
         annyang.removeCommands();
         annyang.addCommands(comandos); // Restaurar comandos originales
         voz("¡Time is up! Too slow!.");
